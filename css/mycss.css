@@ -1,0 +1,125 @@
+  main{
+    font-family: "YuGothic";
+  }
+  main .hero_section img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  main .service_section {
+    background-image: url("../img/bg_service.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  main .u_line_m_navy_10 {
+    border-bottom: solid 10px #1d1f65 !important;
+  }
+  main  .benefits_section {
+    background: #e6e7ef;
+    position: relative;
+  }
+  main .benefits_section .wrapper_90 .benefit_content .benefit_p2 img {
+    position: relative;
+    top: 0.573vw;
+    margin-right: 1.146vw;
+    width: 34.416vw;
+    height: auto;
+  }
+  main .benefits_section .wrapper_55 .person_left::after {
+    content: '';
+    background-image: url("../img/bnft_person1.png");
+    position: absolute;
+    width: 200px;
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: -95px;
+    top: -10px;
+    z-index: 10;
+  }
+  main  .benefits_section .wrapper_55 .person_right {
+    z-index: 2;
+  }
+  main  .benefits_section .wrapper_55 .person_right::after {
+    content: '';
+    background-image: url("../img/bnft_person2.png");
+    position: absolute;
+    width: 200px;
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: -160px;
+    bottom: -80px;
+    z-index: 10;
+  }
+  main  .benefits_section .wrapper_55 .cont_wrapper_100 {
+    position: relative;
+  }
+  main .benefits_section .wrapper_55 .cont_wrapper_100 .width_100 .benefit_item {
+    background: #ffffff;
+    border: 2px #081461 solid;
+    margin: 0;
+    z-index: 1;
+  }
+  main .benefits_section .wrapper_55 .cont_wrapper_100 .width_100 .last_item {
+    padding: 5.49vw 0 !important;
+  }
+  main .offer_section {
+    background-image: url("../img/bg_light.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  main .tb_section {
+    position: relative;
+  }
+  main .tb_section .tb_main_wrap .cont_wrapper_100 table {
+    border: 1px #081461 solid;
+    border-spacing: 0;
+    width: 100%;
+  }
+  main .tb_section .tb_main_wrap .cont_wrapper_100 table tbody tr th {
+    border-right: 1px #081461 solid;
+    text-align: center;
+  }
+  main  .tb_section .tb_main_wrap .cont_wrapper_100 table tbody tr .tb_border_right ,  
+  main  .tb_section .tb_main_wrap .cont_wrapper_100 table tbody tr td:last-child {
+    border-right: 0;
+  }
+  main  .tb_section .tb_main_wrap .cont_wrapper_100 table tbody tr td {
+    border-top: 1px #081461 solid;
+    border-right: 1px #081461 solid;
+  }
+  main .tb_section .tb_main_wrap .cont_wrapper_100 table tbody tr td p {
+    font-size: 12px;
+  }
+  main .comparison_section .bg_comp_wrap, main .comparison_section_2 .bg_comp_wrap {
+    background-image: url("../img/bg_comparison.png");
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  main .provision_section .p_after_yellow {
+    position: relative;
+    z-index: 1;
+  }
+
+  main .provision_section .p_after_yellow::after {
+    content: '';
+    position: absolute;
+    width: 80% !important;
+    height: 25% !important;
+    z-index: -1;
+    left: 10%;
+    bottom: 0;
+    background-color: #ffee00 !important;
+  }
+
+  main .sp_view .store_section {
+    background: #e6e7ef;
+  }
